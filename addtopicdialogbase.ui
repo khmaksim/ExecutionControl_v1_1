@@ -1,0 +1,207 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>AddTopicDialogBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>AddTopicDialogBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>544</width>
+            <height>180</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Добавить тему</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLabel" row="0" column="0">
+            <property name="name">
+                <cstring>textLabel1</cstring>
+            </property>
+            <property name="text">
+                <string>Наименование:</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter|AlignRight</set>
+            </property>
+        </widget>
+        <widget class="QLabel" row="3" column="0">
+            <property name="name">
+                <cstring>textLabel1_2_2_2</cstring>
+            </property>
+            <property name="text">
+                <string>Срок исполнения:</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter|AlignRight</set>
+            </property>
+        </widget>
+        <widget class="QLabel" row="4" column="0">
+            <property name="name">
+                <cstring>textLabel1_2_2_2_2</cstring>
+            </property>
+            <property name="text">
+                <string>Отметка об исполнении:</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter|AlignRight</set>
+            </property>
+        </widget>
+        <widget class="QDateEdit" row="3" column="1">
+            <property name="name">
+                <cstring>dateDateEdit</cstring>
+            </property>
+            <property name="date">
+                <date>
+                    <year>2000</year>
+                    <month>1</month>
+                    <day>1</day>
+                </date>
+            </property>
+            <property name="autoAdvance">
+                <bool>false</bool>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="0" column="1" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>topicLineEdit</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="4" column="1" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>stampLineEdit</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="5" column="4">
+            <property name="name">
+                <cstring>cancelButton</cstring>
+            </property>
+            <property name="text">
+                <string>Отмена</string>
+            </property>
+            <property name="iconSet">
+                <iconset>block_16.png</iconset>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="5" column="3">
+            <property name="name">
+                <cstring>addButton</cstring>
+            </property>
+            <property name="enabled">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Добавить</string>
+            </property>
+            <property name="default">
+                <bool>true</bool>
+            </property>
+            <property name="iconSet">
+                <iconset>plus_16.png</iconset>
+            </property>
+        </widget>
+        <spacer row="5" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>spacer1</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>360</width>
+                    <height>20</height>
+                </size>
+            </property>
+        </spacer>
+        <spacer row="3" column="2" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>spacer1_2</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>330</width>
+                    <height>20</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QLabel" row="1" column="0">
+            <property name="name">
+                <cstring>textLabel1_2_2</cstring>
+            </property>
+            <property name="text">
+                <string>CКБ:</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter|AlignRight</set>
+            </property>
+        </widget>
+        <widget class="QComboBox" row="1" column="1" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>skbComboBox</cstring>
+            </property>
+        </widget>
+        <widget class="QComboBox" row="2" column="1" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>executiveComboBox</cstring>
+            </property>
+        </widget>
+        <widget class="QLabel" row="2" column="0">
+            <property name="name">
+                <cstring>textLabel1_2</cstring>
+            </property>
+            <property name="text">
+                <string>Исполнитель:</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter|AlignRight</set>
+            </property>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>cancelButton</sender>
+        <signal>clicked()</signal>
+        <receiver>AddTopicDialogBase</receiver>
+        <slot>close()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>topicLineEdit</tabstop>
+    <tabstop>skbComboBox</tabstop>
+    <tabstop>executiveComboBox</tabstop>
+    <tabstop>dateDateEdit</tabstop>
+    <tabstop>stampLineEdit</tabstop>
+    <tabstop>addButton</tabstop>
+    <tabstop>cancelButton</tabstop>
+</tabstops>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

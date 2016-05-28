@@ -1,0 +1,237 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>FilterDialogBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>FilterDialogBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>548</width>
+            <height>178</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Филтр</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QGroupBox" row="0" column="0">
+            <property name="name">
+                <cstring>periodGroupBox</cstring>
+            </property>
+            <property name="title">
+                <string>Сроки выполнения</string>
+            </property>
+            <property name="checkable">
+                <bool>true</bool>
+            </property>
+            <property name="checked">
+                <bool>false</bool>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabel1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>В период с</string>
+                    </property>
+                </widget>
+                <widget class="QDateEdit" row="0" column="1">
+                    <property name="name">
+                        <cstring>beginDateEdit</cstring>
+                    </property>
+                    <property name="date">
+                        <date>
+                            <year>2000</year>
+                            <month>1</month>
+                            <day>1</day>
+                        </date>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="2">
+                    <property name="name">
+                        <cstring>textLabel1_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>по</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignCenter</set>
+                    </property>
+                </widget>
+                <widget class="QDateEdit" row="0" column="3">
+                    <property name="name">
+                        <cstring>endDateEdit</cstring>
+                    </property>
+                    <property name="date">
+                        <date>
+                            <year>2000</year>
+                            <month>1</month>
+                            <day>1</day>
+                        </date>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox" row="0" column="1" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>skbGroupBox</cstring>
+            </property>
+            <property name="title">
+                <string>СКБ</string>
+            </property>
+            <property name="checkable">
+                <bool>true</bool>
+            </property>
+            <property name="checked">
+                <bool>false</bool>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QComboBox" row="0" column="0">
+                    <property name="name">
+                        <cstring>skbComboBox</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox" row="1" column="1" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>executiveGroupBox</cstring>
+            </property>
+            <property name="title">
+                <string>Исполнители</string>
+            </property>
+            <property name="checkable">
+                <bool>true</bool>
+            </property>
+            <property name="checked">
+                <bool>false</bool>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QComboBox" row="0" column="0">
+                    <property name="name">
+                        <cstring>executiveComboBox</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox" row="1" column="0">
+            <property name="name">
+                <cstring>yearGroupBox</cstring>
+            </property>
+            <property name="title">
+                <string>Год</string>
+            </property>
+            <property name="checkable">
+                <bool>true</bool>
+            </property>
+            <property name="checked">
+                <bool>false</bool>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QComboBox" row="0" column="0">
+                    <property name="name">
+                        <cstring>yearComboBox</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QPushButton" row="2" column="3">
+            <property name="name">
+                <cstring>closeButton</cstring>
+            </property>
+            <property name="text">
+                <string>Закрыть</string>
+            </property>
+            <property name="autoDefault">
+                <bool>false</bool>
+            </property>
+            <property name="iconSet">
+                <iconset>delete_16.png</iconset>
+            </property>
+        </widget>
+        <spacer row="2" column="0">
+            <property name="name">
+                <cstring>spacer2</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>240</width>
+                    <height>20</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QPushButton" row="2" column="1">
+            <property name="name">
+                <cstring>applyButton</cstring>
+            </property>
+            <property name="text">
+                <string>Применить</string>
+            </property>
+            <property name="default">
+                <bool>true</bool>
+            </property>
+            <property name="iconSet">
+                <iconset>tick_16.png</iconset>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="2" column="2">
+            <property name="name">
+                <cstring>cancelButton</cstring>
+            </property>
+            <property name="text">
+                <string>Отмена</string>
+            </property>
+            <property name="autoDefault">
+                <bool>false</bool>
+            </property>
+            <property name="iconSet">
+                <iconset>block_16.png</iconset>
+            </property>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>closeButton</sender>
+        <signal>clicked()</signal>
+        <receiver>FilterDialogBase</receiver>
+        <slot>close()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>beginDateEdit</tabstop>
+    <tabstop>endDateEdit</tabstop>
+    <tabstop>yearComboBox</tabstop>
+    <tabstop>skbComboBox</tabstop>
+    <tabstop>executiveComboBox</tabstop>
+    <tabstop>applyButton</tabstop>
+    <tabstop>cancelButton</tabstop>
+    <tabstop>closeButton</tabstop>
+</tabstops>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

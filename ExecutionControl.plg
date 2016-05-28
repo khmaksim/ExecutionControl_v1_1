@@ -1,0 +1,347 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ExecutionControl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE4.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic -embed ExecutionControl -f images.tmp -o qmake_image_collection.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE4.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE5.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic filterdialogbase.ui -o filterdialogbase.h
+C:\Qt\3.3.3\bin\uic filterdialogbase.ui -i filterdialogbase.h -o filterdialogbase.cpp
+C:\Qt\3.3.3\bin\moc  filterdialogbase.h -o tmp\moc\release_mt_shared\moc_filterdialogbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE5.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE6.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic connectdbdialogbase.ui -o connectdbdialogbase.h
+C:\Qt\3.3.3\bin\uic connectdbdialogbase.ui -i connectdbdialogbase.h -o connectdbdialogbase.cpp
+C:\Qt\3.3.3\bin\moc  connectdbdialogbase.h -o tmp\moc\release_mt_shared\moc_connectdbdialogbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE6.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE7.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic referenceskbformbase.ui -o referenceskbformbase.h
+C:\Qt\3.3.3\bin\uic referenceskbformbase.ui -i referenceskbformbase.h -o referenceskbformbase.cpp
+C:\Qt\3.3.3\bin\moc  referenceskbformbase.h -o tmp\moc\release_mt_shared\moc_referenceskbformbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE7.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE8.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic openplandialogbase.ui -o openplandialogbase.h
+C:\Qt\3.3.3\bin\uic openplandialogbase.ui -i openplandialogbase.h -o openplandialogbase.cpp
+C:\Qt\3.3.3\bin\moc  openplandialogbase.h -o tmp\moc\release_mt_shared\moc_openplandialogbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE8.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE9.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic referenceexecutionformbase.ui -o referenceexecutionformbase.h
+C:\Qt\3.3.3\bin\uic referenceexecutionformbase.ui -i referenceexecutionformbase.h -o referenceexecutionformbase.cpp
+C:\Qt\3.3.3\bin\moc  referenceexecutionformbase.h -o tmp\moc\release_mt_shared\moc_referenceexecutionformbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPE9.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEA.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic edittopicdialogbase.ui -o edittopicdialogbase.h
+C:\Qt\3.3.3\bin\uic edittopicdialogbase.ui -i edittopicdialogbase.h -o edittopicdialogbase.cpp
+C:\Qt\3.3.3\bin\moc  edittopicdialogbase.h -o tmp\moc\release_mt_shared\moc_edittopicdialogbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEA.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEB.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic addtopicdialogbase.ui -o addtopicdialogbase.h
+C:\Qt\3.3.3\bin\uic addtopicdialogbase.ui -i addtopicdialogbase.h -o addtopicdialogbase.cpp
+C:\Qt\3.3.3\bin\moc  addtopicdialogbase.h -o tmp\moc\release_mt_shared\moc_addtopicdialogbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEB.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEC.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic removeplandialogbase.ui -o removeplandialogbase.h
+C:\Qt\3.3.3\bin\uic removeplandialogbase.ui -i removeplandialogbase.h -o removeplandialogbase.cpp
+C:\Qt\3.3.3\bin\moc  removeplandialogbase.h -o tmp\moc\release_mt_shared\moc_removeplandialogbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEC.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPED.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic newplandialogbase.ui -o newplandialogbase.h
+C:\Qt\3.3.3\bin\uic newplandialogbase.ui -i newplandialogbase.h -o newplandialogbase.cpp
+C:\Qt\3.3.3\bin\moc  newplandialogbase.h -o tmp\moc\release_mt_shared\moc_newplandialogbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPED.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEE.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\uic mainformbase.ui -o mainformbase.h
+C:\Qt\3.3.3\bin\uic mainformbase.ui -i mainformbase.h -o mainformbase.cpp
+C:\Qt\3.3.3\bin\moc  mainformbase.h -o tmp\moc\release_mt_shared\moc_mainformbase.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEE.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEF.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc filterdialog.h -o tmp\moc\release_mt_shared\moc_filterdialog.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPEF.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF0.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc connectdbdialog.h -o tmp\moc\release_mt_shared\moc_connectdbdialog.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF0.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF1.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc openplandialog.h -o tmp\moc\release_mt_shared\moc_openplandialog.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF1.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF2.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc referenceskbform.h -o tmp\moc\release_mt_shared\moc_referenceskbform.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF2.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF3.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc referenceexecutionform.h -o tmp\moc\release_mt_shared\moc_referenceexecutionform.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF3.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF4.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc edittopicdialog.h -o tmp\moc\release_mt_shared\moc_edittopicdialog.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF4.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF5.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc addtopicdialog.h -o tmp\moc\release_mt_shared\moc_addtopicdialog.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF5.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF6.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc removeplandialog.h -o tmp\moc\release_mt_shared\moc_removeplandialog.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF6.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF7.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc newplandialog.h -o tmp\moc\release_mt_shared\moc_newplandialog.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF7.bat"
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF8.bat" with contents
+[
+@echo off
+C:\Qt\3.3.3\bin\moc mainform.h -o tmp\moc\release_mt_shared\moc_mainform.cpp
+]
+Creating command line "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF8.bat"
+Creating command line "rc.exe /l 0x409 /fo"tmp\obj\release_mt_shared/ExecutionControl.res" /d "NDEBUG" "C:\Qt\3.3.3\projects\ExecutionControl_v1_1\ExecutionControl.rc"" 
+Creating image collection...
+Uic'ing filterdialogbase.ui...
+Uic'ing connectdbdialogbase.ui...
+Uic'ing referenceskbformbase.ui...
+Uic'ing openplandialogbase.ui...
+Uic'ing referenceexecutionformbase.ui...
+Uic'ing edittopicdialogbase.ui...
+Uic'ing addtopicdialogbase.ui...
+Uic'ing removeplandialogbase.ui...
+Uic'ing newplandialogbase.ui...
+Uic'ing mainformbase.ui...
+Moc'ing filterdialog.h...
+Moc'ing connectdbdialog.h...
+Moc'ing openplandialog.h...
+Moc'ing referenceskbform.h...
+Moc'ing referenceexecutionform.h...
+Moc'ing edittopicdialog.h...
+Moc'ing addtopicdialog.h...
+Moc'ing removeplandialog.h...
+Moc'ing newplandialog.h...
+Moc'ing mainform.h...
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF9.tmp" with contents
+[
+/nologo /MD /W3 /O1 /I "C:\Qt\3.3.3\include" /I "C:\Qt\3.3.3\projects\ExecutionControl_v1_1" /I "tmp\moc\release_mt_shared" /I "C:\Qt\3.3.3\mkspecs\win32-msvc" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "UNICODE" /D "QT_DLL" /D "QT_THREAD_SUPPORT" /D "QT_ACCESSIBILITY_SUPPORT" /D "QT_NO_DEBUG" /Fo"tmp\obj\release_mt_shared/" /Fd"tmp\obj\release_mt_shared/" /FD -Zm200 /c 
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\main.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mainform.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\newplandialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\removeplandialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\addtopicdialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\edittopicdialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\referenceexecutionform.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\referenceskbform.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\openplandialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\connectdbdialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\filterdialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_mainform.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_newplandialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_removeplandialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_addtopicdialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_edittopicdialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_referenceexecutionform.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_referenceskbform.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_openplandialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_connectdbdialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_filterdialog.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_mainformbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_newplandialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_removeplandialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_addtopicdialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_edittopicdialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_referenceexecutionformbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_openplandialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_referenceskbformbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_connectdbdialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\tmp\moc\release_mt_shared\moc_filterdialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mainformbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\newplandialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\removeplandialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\addtopicdialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\edittopicdialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\referenceexecutionformbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\openplandialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\referenceskbformbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\connectdbdialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\filterdialogbase.cpp"
+"C:\Qt\3.3.3\projects\ExecutionControl_v1_1\qmake_image_collection.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPF9.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPFA.tmp" with contents
+[
+"qt-mt333.lib" "qtmain.lib" "opengl32.lib" "glu32.lib" "delayimp.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "imm32.lib" "winmm.lib" "wsock32.lib" "winspool.lib" "qaxcontainer.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "imm32.lib" "winmm.lib" "wsock32.lib" "winspool.lib" delayimp.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ExecutionControl.pdb" /machine:IX86 /out:"Release/ExecutionControl.exe" /libpath:"C:\Qt\3.3.3\lib" /DELAYLOAD:opengl32.dll /DELAYLOAD:comdlg32.dll /DELAYLOAD:oleaut32.dll /DELAYLOAD:winmm.dll /DELAYLOAD:wsock32.dll /DELAYLOAD:winspool.dll 
+.\tmp\obj\release_mt_shared\main.obj
+.\tmp\obj\release_mt_shared\mainform.obj
+.\tmp\obj\release_mt_shared\newplandialog.obj
+.\tmp\obj\release_mt_shared\removeplandialog.obj
+.\tmp\obj\release_mt_shared\addtopicdialog.obj
+.\tmp\obj\release_mt_shared\edittopicdialog.obj
+.\tmp\obj\release_mt_shared\referenceexecutionform.obj
+.\tmp\obj\release_mt_shared\referenceskbform.obj
+.\tmp\obj\release_mt_shared\openplandialog.obj
+.\tmp\obj\release_mt_shared\connectdbdialog.obj
+.\tmp\obj\release_mt_shared\mcdocument.obj
+.\tmp\obj\release_mt_shared\filterdialog.obj
+.\tmp\obj\release_mt_shared\moc_mainform.obj
+.\tmp\obj\release_mt_shared\moc_newplandialog.obj
+.\tmp\obj\release_mt_shared\moc_removeplandialog.obj
+.\tmp\obj\release_mt_shared\moc_addtopicdialog.obj
+.\tmp\obj\release_mt_shared\moc_edittopicdialog.obj
+.\tmp\obj\release_mt_shared\moc_referenceexecutionform.obj
+.\tmp\obj\release_mt_shared\moc_referenceskbform.obj
+.\tmp\obj\release_mt_shared\moc_openplandialog.obj
+.\tmp\obj\release_mt_shared\moc_connectdbdialog.obj
+.\tmp\obj\release_mt_shared\moc_filterdialog.obj
+.\tmp\obj\release_mt_shared\moc_mainformbase.obj
+.\tmp\obj\release_mt_shared\moc_newplandialogbase.obj
+.\tmp\obj\release_mt_shared\moc_removeplandialogbase.obj
+.\tmp\obj\release_mt_shared\moc_addtopicdialogbase.obj
+.\tmp\obj\release_mt_shared\moc_edittopicdialogbase.obj
+.\tmp\obj\release_mt_shared\moc_referenceexecutionformbase.obj
+.\tmp\obj\release_mt_shared\moc_openplandialogbase.obj
+.\tmp\obj\release_mt_shared\moc_referenceskbformbase.obj
+.\tmp\obj\release_mt_shared\moc_connectdbdialogbase.obj
+.\tmp\obj\release_mt_shared\moc_filterdialogbase.obj
+.\tmp\obj\release_mt_shared\mainformbase.obj
+.\tmp\obj\release_mt_shared\newplandialogbase.obj
+.\tmp\obj\release_mt_shared\removeplandialogbase.obj
+.\tmp\obj\release_mt_shared\addtopicdialogbase.obj
+.\tmp\obj\release_mt_shared\edittopicdialogbase.obj
+.\tmp\obj\release_mt_shared\referenceexecutionformbase.obj
+.\tmp\obj\release_mt_shared\openplandialogbase.obj
+.\tmp\obj\release_mt_shared\referenceskbformbase.obj
+.\tmp\obj\release_mt_shared\connectdbdialogbase.obj
+.\tmp\obj\release_mt_shared\filterdialogbase.obj
+.\tmp\obj\release_mt_shared\qmake_image_collection.obj
+.\tmp\obj\release_mt_shared\ExecutionControl.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPFA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+mainform.cpp
+newplandialog.cpp
+removeplandialog.cpp
+addtopicdialog.cpp
+edittopicdialog.cpp
+referenceexecutionform.cpp
+referenceskbform.cpp
+openplandialog.cpp
+connectdbdialog.cpp
+mcdocument.cpp
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(416) : warning C4018: '==' : signed/unsigned mismatch
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(492) : warning C4018: '>' : signed/unsigned mismatch
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(498) : warning C4018: '>' : signed/unsigned mismatch
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(585) : warning C4018: '<' : signed/unsigned mismatch
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(591) : warning C4018: '<' : signed/unsigned mismatch
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(602) : warning C4018: '<' : signed/unsigned mismatch
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(617) : warning C4018: '<' : signed/unsigned mismatch
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(922) : warning C4018: '>' : signed/unsigned mismatch
+C:\Qt\3.3.3\projects\ExecutionControl_v1_1\mcdocument.cpp(1174) : warning C4018: '<' : signed/unsigned mismatch
+filterdialog.cpp
+moc_mainform.cpp
+moc_newplandialog.cpp
+moc_removeplandialog.cpp
+moc_addtopicdialog.cpp
+moc_edittopicdialog.cpp
+moc_referenceexecutionform.cpp
+moc_referenceskbform.cpp
+moc_openplandialog.cpp
+Generating Code...
+Compiling...
+moc_connectdbdialog.cpp
+moc_filterdialog.cpp
+moc_mainformbase.cpp
+moc_newplandialogbase.cpp
+moc_removeplandialogbase.cpp
+moc_addtopicdialogbase.cpp
+moc_edittopicdialogbase.cpp
+moc_referenceexecutionformbase.cpp
+moc_openplandialogbase.cpp
+moc_referenceskbformbase.cpp
+moc_connectdbdialogbase.cpp
+moc_filterdialogbase.cpp
+mainformbase.cpp
+newplandialogbase.cpp
+removeplandialogbase.cpp
+addtopicdialogbase.cpp
+edittopicdialogbase.cpp
+referenceexecutionformbase.cpp
+openplandialogbase.cpp
+referenceskbformbase.cpp
+Generating Code...
+Compiling...
+connectdbdialogbase.cpp
+filterdialogbase.cpp
+qmake_image_collection.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4199: /DELAYLOAD:opengl32.dll ignored; no imports found from opengl32.dll
+LINK : warning LNK4199: /DELAYLOAD:comdlg32.dll ignored; no imports found from comdlg32.dll
+LINK : warning LNK4199: /DELAYLOAD:winmm.dll ignored; no imports found from winmm.dll
+LINK : warning LNK4199: /DELAYLOAD:wsock32.dll ignored; no imports found from wsock32.dll
+LINK : warning LNK4199: /DELAYLOAD:winspool.dll ignored; no imports found from winspool.dll
+
+
+
+<h3>Results</h3>
+ExecutionControl.exe - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>

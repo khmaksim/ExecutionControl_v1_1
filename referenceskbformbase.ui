@@ -1,0 +1,262 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>ReferenceSkbFormBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ReferenceSkbFormBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>608</width>
+            <height>374</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Справочник СКБ</string>
+    </property>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>groupBox1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>230</y>
+                <width>588</width>
+                <height>90</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string></string>
+        </property>
+        <grid>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <widget class="QLabel" row="0" column="0">
+                <property name="name">
+                    <cstring>textLabel1</cstring>
+                </property>
+                <property name="text">
+                    <string>Наименование СКБ:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" row="0" column="1">
+                <property name="name">
+                    <cstring>skbLineEdit</cstring>
+                </property>
+                <property name="frameShape">
+                    <enum>LineEditPanel</enum>
+                </property>
+                <property name="frameShadow">
+                    <enum>Sunken</enum>
+                </property>
+            </widget>
+            <widget class="Line" row="0" column="4" rowspan="3" colspan="1">
+                <property name="name">
+                    <cstring>line1</cstring>
+                </property>
+                <property name="frameShape">
+                    <enum>VLine</enum>
+                </property>
+                <property name="frameShadow">
+                    <enum>Sunken</enum>
+                </property>
+                <property name="orientation">
+                    <enum>Vertical</enum>
+                </property>
+            </widget>
+            <widget class="QPushButton" row="0" column="5">
+                <property name="name">
+                    <cstring>addButton</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>false</bool>
+                </property>
+                <property name="text">
+                    <string>Добавить</string>
+                </property>
+                <property name="iconSet">
+                    <iconset>plus_16.png</iconset>
+                </property>
+            </widget>
+            <widget class="QPushButton" row="1" column="5">
+                <property name="name">
+                    <cstring>editButton</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>false</bool>
+                </property>
+                <property name="text">
+                    <string>Редактировать</string>
+                </property>
+                <property name="iconSet">
+                    <iconset>pencil_16.png</iconset>
+                </property>
+            </widget>
+        </grid>
+    </widget>
+    <spacer>
+        <property name="name">
+            <cstring>spacer17</cstring>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="sizeType">
+            <enum>Expanding</enum>
+        </property>
+        <property name="sizeHint">
+            <size>
+                <width>500</width>
+                <height>20</height>
+            </size>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>330</y>
+                <width>500</width>
+                <height>20</height>
+            </rect>
+        </property>
+    </spacer>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>groupBox2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>588</width>
+                <height>209</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string></string>
+        </property>
+        <grid>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <widget class="QPushButton" row="0" column="2">
+                <property name="name">
+                    <cstring>removeButton</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>false</bool>
+                </property>
+                <property name="text">
+                    <string>Удалить</string>
+                </property>
+                <property name="iconSet">
+                    <iconset>delete_16.png</iconset>
+                </property>
+            </widget>
+            <spacer row="1" column="2">
+                <property name="name">
+                    <cstring>spacer18</cstring>
+                </property>
+                <property name="orientation">
+                    <enum>Vertical</enum>
+                </property>
+                <property name="sizeType">
+                    <enum>Expanding</enum>
+                </property>
+                <property name="sizeHint">
+                    <size>
+                        <width>20</width>
+                        <height>150</height>
+                    </size>
+                </property>
+            </spacer>
+            <widget class="QTable" row="0" column="0" rowspan="2" colspan="1">
+                <column>
+                    <property name="text">
+                        <string>Наименование СКБ</string>
+                    </property>
+                </column>
+                <column>
+                    <property name="text">
+                        <string>id</string>
+                    </property>
+                </column>
+                <property name="name">
+                    <cstring>table</cstring>
+                </property>
+                <property name="numRows">
+                    <number>0</number>
+                </property>
+                <property name="numCols">
+                    <number>2</number>
+                </property>
+                <property name="readOnly">
+                    <bool>true</bool>
+                </property>
+                <property name="selectionMode">
+                    <enum>SingleRow</enum>
+                </property>
+                <property name="focusStyle">
+                    <enum>FollowStyle</enum>
+                </property>
+            </widget>
+            <widget class="Line" row="0" column="1" rowspan="2" colspan="1">
+                <property name="name">
+                    <cstring>line2</cstring>
+                </property>
+                <property name="frameShape">
+                    <enum>VLine</enum>
+                </property>
+                <property name="frameShadow">
+                    <enum>Sunken</enum>
+                </property>
+                <property name="orientation">
+                    <enum>Vertical</enum>
+                </property>
+            </widget>
+        </grid>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>closeButton</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>516</x>
+                <y>326</y>
+                <width>82</width>
+                <height>28</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Закрыть</string>
+        </property>
+        <property name="default">
+            <bool>true</bool>
+        </property>
+        <property name="iconSet">
+            <iconset>delete_16.png</iconset>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>closeButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ReferenceSkbFormBase</receiver>
+        <slot>close()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>table</tabstop>
+    <tabstop>removeButton</tabstop>
+    <tabstop>skbLineEdit</tabstop>
+    <tabstop>addButton</tabstop>
+    <tabstop>editButton</tabstop>
+    <tabstop>closeButton</tabstop>
+</tabstops>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
